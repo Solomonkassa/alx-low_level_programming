@@ -1,24 +1,21 @@
 #include <stdio.h>
-#include "#include <stdio.h>
 #include "main.h"
-main.h"
-
 /**
- * main - Prints main as a message.
+ * main - program that print putchar
  *
- * Return: Always 0 (Success)
+ * Return: int
  */
+
 int main(void)
 {
-	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
-	int count, sz;
+	int n = 0;
+	char str_hbt[9] = "_putchar";
 
-	sz = sizeof(str) / sizeof(int);
-	for (count = 0; count < sz; count++)
+	while (n < 9)
 	{
-		_putchar(str[count]);
+		_putchar(str_hbt[n]);
+		n += 1;
 	}
 	_putchar('\n');
 	return (0);
-
 }
