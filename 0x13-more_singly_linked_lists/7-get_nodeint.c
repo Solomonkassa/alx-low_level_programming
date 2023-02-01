@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "lists.h"
 
 /**
  * struct listint_s - singly linked list
@@ -16,8 +15,8 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
     unsigned int i;
     listint_t *node = head;
 
-    for (i = 0; node && i < index; i++)
+    for (i = 0; i < head && index != NULL; i++)
         node = node->next;
 
-    return (i == index) ? node : NULL;
+    return (head) ;
 }
