@@ -8,6 +8,10 @@
 
 ##This process is repeated until the end of the list has been reached and the head pointer is NULL, at which point the loop terminates and the memory occupied by the entire linked list has been freed.
 
+##The function get_nodeint_at_index takes two arguments: head and index. head is a pointer to the head of the linked list, which is of type listint_t (defined in the code). index is an unsigned integer that represents the position of the node in the linked list, where the first node has an index of 0, the second node has an index of 1, and so on.
 
+##The function uses a for loop to traverse the linked list, starting from the head node. The loop continues until either node is NULL (i.e., the end of the linked list has been reached) or i is equal to index. The loop increments i at each iteration, and updates node to point to the next node in the linked list by accessing the next member of the current node.
+
+##At the end of the loop, if i is equal to index, the function returns node, which points to the index-th node. Otherwise, if node is NULL, the function returns NULL, indicating that the node at the given index does not exist.
 
 
