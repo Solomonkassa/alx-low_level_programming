@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <lists.h>
+#include <stdlib.h>
 
 /**
  * struct listint_s - singly linked list
@@ -9,6 +9,11 @@
  * Description: singly linked list node structure
  * for Alx project
  */
+typedef struct listint_s
+{
+    int n;
+    struct listint_s *next;
+} listint_t;
 
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
@@ -20,4 +25,3 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 
     return (i == index) ? node : NULL;
 }
-
