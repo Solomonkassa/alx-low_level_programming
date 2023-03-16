@@ -41,4 +41,4 @@ To use the functions in this repository, follow these steps:
 
 ## Authors
 
-This repository contains code written by Solomon Kassa for the ALX School program.
+This repository contains code written by `Solomon Kassa` for the ALX School program.
