@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-readme
-=======
 # ALX Low Level Programming
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 This repository contains a collection of projects and exercises covering various topics in low-level programming using the C language. The projects are designed to introduce and reinforce important concepts and techniques in programming, including variables, control flow, functions, pointers, memory allocation, file input/output, and more.
@@ -39,4 +36,4 @@ The following is a list of the projects contained in this repository, along with
 
 This repository is intended for educational purposes and is part of the curriculum at ALX, a software engineering school.
 
->>>>>>> 217eae6539fb473f43561b98a2ffcd20a1dc8ba2
+
